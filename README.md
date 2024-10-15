@@ -55,6 +55,7 @@ Object Detection/
 │   └── README.md
 ├── requirements.txt
 └── README.md
+```
 
 ## Prerequisites
 
