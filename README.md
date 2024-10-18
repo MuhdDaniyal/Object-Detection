@@ -82,3 +82,120 @@ First, clone the GitHub repository to your local machine:
 ```bash
 git clone https://github.com/MuhdDaniyal/Object-Detection.git
 cd Object-Detection
+```
+
+### 2. Set Up a Virtual Environment (Optional)
+
+It's a good practice to create a virtual environment. You can do this using venv:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+### 3. Install Requirements
+
+Install the required packages using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+### YOLOv8 Real-Time Object Detection
+
+1. Navigate to the YOLOv8 directory:
+
+```bash
+cd YOLOv8
+```
+
+2. Open the Jupyter Notebook and run the cells in the live_camera_detection_yolov8.ipynb file to start the YOLOv8 object detection:
+
+```bash
+jupyter notebook live_camera_detection_yolov8.ipynb
+```
+3. Usage Notes:
+
+* Press 'q' to quit the detection window.
+
+
+### Faster R-CNN Real-Time Object Detection
+
+1. Navigate to the Faster_RCNN directory:
+
+```bash
+cd Faster_RCNN
+```
+
+2. Open the Jupyter Notebook and run the cells in the live_camera_detection_faster_rcnn.ipynb file to start the Faster R-CNN object detection:
+
+```bash
+jupyter notebook live_camera_detection_faster_rcnn.ipynb
+```
+
+3. Usage Notes:
+
+* Press 'q' to quit the detection window.
+* A GPU is recommend 
+
+---
+
+## Troubleshooting
+
+1. SSL Certificate Verification Failed
+
+```bash
+import os
+import certifi
+
+os.environ['SSL_CERT_FILE'] = certifi.where()
+```
+
+2. Camera Not Opening
+   Ensure your webcam is properly connected, and no other application is using it.
+3. Slow Performance
+   Use a GPU and lower the frame resolution if needed.
+
+
+
+---
+
+## Contributing
+
+1. Fork the Repository
+
+2. Clone Your Fork
+
+```bash
+git clone https://github.com/yourusername/Object-Detection.git
+cd Object-Detection
+```
+
+3. Create a New Branch
+
+```bash
+git checkout -b feature/YourFeatureName
+```
+
+4. Commit and Push
+
+```bash
+git commit -m "Add feature: YourFeatureName"
+git push origin feature/YourFeatureName
+```
+
+---
+
+## Contact
+* LinkedIn: [Muhammad Daniyal](https://www.linkedin.com/in/muhammad-daniyal-83990324b)
+  <a href="https://www.linkedin.com/in/muhammad-daniyal-83990324b" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn" width="30" height="30" />
+</a>
+
+* For any inquiries, please contact me at dani.official999@gimail.com.
+
+---
